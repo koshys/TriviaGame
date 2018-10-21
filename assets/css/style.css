@@ -1,0 +1,134 @@
+body {
+    background-image: url('../images/images.png');
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 50%;
+}
+
+#game {
+   
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.display {
+    display: none;
+}
+
+#main {
+    
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding-top: 300px;
+    -webkit-animation: fadein 5s; 
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.answer-button {
+    background-color: white;
+    border-color: red;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#start-over {
+    background-color: white;
+    border-color: red;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.answer-button:hover {
+    background-color: white;
+    color: black;
+    border-color: red;
+}
+
+h3 {
+    font-size:40px;
+    margin-top: -10px !important;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color : white;
+}
+
+.timer h2 {
+    font-weight: 500;
+}
+
+
+
+.questions, .answers {
+    font-size:30px;
+    margin-top: 10px !important;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.btn {
+    background-color: white;
+    border-color: red;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: red;
+    color: black;
+    border-color: white;
+}
+
+.btn:focus {
+    background-color: lightcoral !important;
+    border-color: lightcoral !important;
+}
+
+.btn:active {
+    background-color: lightcoral !important;
+    border-color: lightcoral !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+}
+
